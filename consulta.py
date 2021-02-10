@@ -29,9 +29,9 @@ def clear():
 def youtube():
    if platform.system() == "Windows":
       import webbrowser
-      webbrowser.open_new_tab("https://youtube.com/channel/UC3HJVMAGPQnL3EglFcaFsKg")
+      webbrowser.open_new_tab("https://www.instagram.com/lilnext01/")
    else:
-       os.system("termux-open-url https://youtube.com/channel/UC3HJVMAGPQnL3EglFcaFsKg")
+       os.system("termux-open-url https://www.instagram.com/lilnext01/")
 
 clear()
 R='\033[1;31m'; B='\033[1;34m'; C='\033[1;37m'; Y='\033[1;33m'; G='\033[1;32m'; RT='\033[;0m'
@@ -76,7 +76,7 @@ clear()
 
 
 
-url = "https://raw.githubusercontent.com/Snuking/snuking/main/version.txt"
+url = "https://raw.githubusercontent.com/lilnext01/lilnext/main/version.txt"
 version = str(requests.get(url).text)
 
 def main():
@@ -110,6 +110,7 @@ def main():
 [{G}8{C}] Telefone.
 [{G}9{C}] BIN.
 [{G}10{C}] Gerador.
+[{G}11{C}] Instagram.
 
 [{G}44{C}] Atualizar.
 [{G}55{C}] Novidades.
