@@ -1,4 +1,4 @@
-#Snuking/Somos uma legião. 2021 ©
+#LilNext/Somos uma legião. 2021 ©
 
 import requests, time
 import os
