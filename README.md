@@ -107,9 +107,9 @@ Para instalar no seu Termux, siga os comandos:
 apt update && apt upgrade
 apt instala python
 pkg install git
-git clone 
+git clone https://github.com/lilnext01/lilnext
 ls
-cd lilnextconsulta
+cd lilnext
 python install.py
 python consulta.py
 
