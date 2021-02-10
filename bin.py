@@ -43,7 +43,7 @@ def main():
     consulta.main()
   elif tool=='3':
     clear()
-    print(f'\n{G}Somos uma legião.{C}\n')
+    print(f'\n{G}LilNext/Somos uma legião.{C}\n')
     exit()
   else:
     clear()
@@ -76,7 +76,7 @@ def again():
         clear()
         main()
     else:
-        print(f"\n{G}Somos uma legião.{C}\n")
+        print(f"\n{G}LilNext/Somos uma legião.{C}\n")
         exit()
 
 main()
