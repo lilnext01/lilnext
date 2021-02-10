@@ -13,9 +13,9 @@ def clear():
 def youtube():
    if platform.system() == "Windows":
       import webbrowser
-      webbrowser.open_new_tab("https://youtube.com/c/unsaid01")
+      webbrowser.open_new_tab("https://www.instagram.com/lilnext01/")
    else:
-       os.system("termux-open-url https://youtube.com/c/unsaid01")
+       os.system("termux-open-url https://www.instagram.com/lilnext01/")
 
 clear()
 R='\033[1;31m'; B='\033[1;34m'; C='\033[1;37m'; Y='\033[1;33m'; G='\033[1;32m'; RT='\033[;0m'
